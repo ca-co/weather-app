@@ -43,7 +43,7 @@ async function getWeather(cityName){
             weatherCard.style.backgroundImage = 'url("media/drizzle.jpg")';
             break;
         case 'Rain': 
-            weatherCard.style.backgroundImage = 'url("media/rain.jpg")';
+            weatherCard.style.backgroundImage = 'url("media/rain2.jpg")';
             break;
         case 'Mist': 
             weatherCard.style.backgroundImage = 'url("media/fog2.jpg")';
