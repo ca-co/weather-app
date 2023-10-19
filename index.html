@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caco's Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b8d675b7d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main>
+    <div id="weather" class="weather">
+        <div id="searchbar" class="searchbar">
+            <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="search" name="search-input" id="search-input" placeholder="Search for a city!">
+        </div>
+        <div id="center" class="center">
+            <h1 id="temp"><i class="fa-solid fa-temperature-half"></i> ??&deg;C</h1>
+            <h2 id="location">Manila, PH</h2>
+            <h3 id="weather-status"><i class="fa-regular fa-sun"></i> Sunny</h3>
+        </div>
+        <div id="bottom" class="bottom">
+            <div class="humidity">
+                <h1 id="humidity-status">??%</h1>
+                <h2><i class="fa-solid fa-water"></i></h2>
+                <p>Humidity</p>
+            </div>
+            <div class="wind">
+                <h1 id="wind-status">?? km/h ???&deg;</h1>
+                <h2><i class="fa-solid fa-wind"></i></h2>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+            <div id="footer" class="footer">
+                <p>made by caco</p>
+            </div>
+    </div>
+</main>  
+    <script src="script.js"></script>
+</html>

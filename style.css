@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(25, 25, 25);
+    z-index: -1;
+}
+
+.weather{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    height: 80%;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px white;
+    padding: 15px;
+    background-image: url('media/clouds2.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    z-index: 1;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#search-button{
+    width: 15%;
+    height: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 120%;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#search-button:active{
+    font-size: 150%;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+.searchbar input{
+    width: 85%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: none;
+    outline: none;
+    font-size: 120%;
+}
+
+.searchbar input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 58%;
+}
+
+#temp{
+    font-size: 450%;
+    font-weight: normal;
+}
+
+#location{
+    font-size: 150%;
+}
+
+#weather-status{
+    font-size: 175%;
+    font-weight: normal;
+}
+
+#weather-status::first-letter{
+    text-transform: capitalize;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.bottom div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.bottom div h1, .bottom div h2, .bottom div p{
+    width: 100%;
+    font-size: 150%;
+    text-align: center;
+    font-weight: normal;
+}
+
+.bottom div h1{
+    font-size: 110%;
+}
+
+.bottom div h2{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.bottom div p{
+    font-size: 125%;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 2%;
+    justify-content: center;
+    font-size: 75%;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255);
+}
+
+
