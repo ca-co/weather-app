@@ -17,6 +17,7 @@ const humidity = document.getElementById('humidity-status')
 const wind = document.getElementById('wind-status')
 
 async function getWeather(cityName){
+
     try{
         const response = await fetch(`${apiUrl}${cityName}&appid=${apiKey}`)
         var data = await response.json()
@@ -59,7 +60,6 @@ async function getWeather(cityName){
             break;
     }
 
-    
 }
 
 getWeather('manila')

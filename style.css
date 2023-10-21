@@ -32,6 +32,7 @@ main{
     background-position: bottom;
     background-size: cover;
     z-index: 1;
+    transition: .5s ease-out;
 }
 
 .searchbar{
@@ -59,6 +60,7 @@ main{
 #search-button:active{
     font-size: 150%;
     background-color: rgba(255, 255, 255, 0.4);
+    transition: 0.1s linear;
 
 }
 
